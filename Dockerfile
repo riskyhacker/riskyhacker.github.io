@@ -1,8 +1,8 @@
 FROM node:15
 
-WORKDIR /usr/src/app
+WORKDIR /blog
 
-COPY package.json /usr/src/app/package.json
+COPY package.json /blog/package.json
 RUN npm install
 
-ENTRYPOINT "npx @11ty/eleventy && npx @11ty/eleventy --serve"
+ENTRYPOINT [ "/usr/local/bin/npm", "run", "start" ]
