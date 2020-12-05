@@ -1,0 +1,20 @@
+{
+  "title": "Risky Hacker",
+  "url": "https://riskyhacker.github.io/",
+  "description": "References and resources for hacking.",
+  "feed": {
+    "subtitle": "References and resources for hacking.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://riskyhacker.github.io/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://riskyhacker.github.io/feed/feed.json"
+  },
+  "author": {
+    "name": "Your Name Here",
+    "email": "youremailaddress@example.com",
+    "url": "https://riskyhacker.github.io//about-me/"
+  }
+}

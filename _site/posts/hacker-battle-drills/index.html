@@ -23,14 +23,15 @@
     <main class="tmpl-post">
       <h1>Hacker Battle Drills</h1>
 
-<h4 id="work-in-progress">WORK IN PROGRESS <a class="direct-link" href="#work-in-progress">#</a></h4>
 <blockquote>
-<p>Moves every hacker should know.</p>
+<p>A rolling list of moves every hacker should know.</p>
 </blockquote>
-<h3 id="battle-drill-%231">Battle Drill #1 <a class="direct-link" href="#battle-drill-%231">#</a></h3>
-<pre class="language-shell"><code class="language-shell"><span class="highlight-line"><span class="token comment"># verify a host is up </span></span><br><ins class="highlight-line highlight-line-add"><span class="token function">ping</span> <span class="token variable">$TARGET</span></ins></code></pre>
-<h3 id="battle-drill-%232">Battle Drill #2 <a class="direct-link" href="#battle-drill-%232">#</a></h3>
-<pre class="language-shell"><code class="language-shell"><span class="highlight-line"><span class="token comment"># verify a service is up</span></span><br><ins class="highlight-line highlight-line-add"><span class="token builtin class-name">echo</span> <span class="token string">''</span> <span class="token operator">|</span> <span class="token function">nc</span> -vv <span class="token variable">$TARGET</span> <span class="token variable">$PORT</span></ins></code></pre>
+<h3 id="resolve-a-hostname">Resolve a hostname <a class="direct-link" href="#resolve-a-hostname">#</a></h3>
+<pre class="language-shell"><code class="language-shell"><span class="highlight-line"><span class="token function">dig</span> +short <span class="token variable">$TARGET</span></span></code></pre>
+<h3 id="verify-a-host-is-up">Verify a host is up <a class="direct-link" href="#verify-a-host-is-up">#</a></h3>
+<pre class="language-shell"><code class="language-shell"><span class="highlight-line"><span class="token function">ping</span> <span class="token variable">$TARGET</span></span></code></pre>
+<h3 id="probe-a-service">Probe a service <a class="direct-link" href="#probe-a-service">#</a></h3>
+<pre class="language-shell"><code class="language-shell"><span class="highlight-line"><span class="token builtin class-name">echo</span> <span class="token string">''</span> <span class="token operator">|</span> <span class="token function">nc</span> -vv <span class="token variable">$TARGET</span> <span class="token variable">$PORT</span></span></code></pre>
 
 
 <hr>
