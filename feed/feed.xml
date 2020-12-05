@@ -3,7 +3,7 @@
 	<title>Risky Hacker</title>
 	<subtitle>References and resources for hacking.</subtitle>
 	
-	<link href="https://riskyhacker.github.io/riskyhacker.github.io/feed/feed.xml" rel="self"/>
+	<link href="https://riskyhacker.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://riskyhacker.github.io/"/>
 	<updated>2020-12-05T00:00:00+00:00</updated>
 	<id>https://riskyhacker.github.io/</id>
@@ -14,9 +14,9 @@
 	
 	<entry>
 		<title>Hacker Battle Drills</title>
-		<link href="https://riskyhacker.github.io/riskyhacker.github.io/posts/hacker-battle-drills/"/>
+		<link href="https://riskyhacker.github.io/posts/hacker-battle-drills/"/>
 		<updated>2020-12-05T00:00:00+00:00</updated>
-		<id>https://riskyhacker.github.io/riskyhacker.github.io/posts/hacker-battle-drills/</id>
+		<id>https://riskyhacker.github.io/posts/hacker-battle-drills/</id>
 		<content type="html">&lt;blockquote&gt;
 &lt;p&gt;Moves every hacker should know.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -29,9 +29,9 @@
 	
 	<entry>
 		<title>The Pentester&#39;s Fallacy</title>
-		<link href="https://riskyhacker.github.io/riskyhacker.github.io/posts/pentesters-fallacy/"/>
+		<link href="https://riskyhacker.github.io/posts/pentesters-fallacy/"/>
 		<updated>2020-11-29T00:00:00+00:00</updated>
-		<id>https://riskyhacker.github.io/riskyhacker.github.io/posts/pentesters-fallacy/</id>
+		<id>https://riskyhacker.github.io/posts/pentesters-fallacy/</id>
 		<content type="html">  &lt;script src=&quot;https://polyfill.io/v3/polyfill.min.js?features=es6&quot;&gt;&lt;/script&gt;
   &lt;script id=&quot;MathJax-script&quot; async=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js&quot;&gt;
   &lt;/script&gt;
@@ -64,16 +64,16 @@
 &lt;li&gt;Let &lt;strong&gt;V&lt;/strong&gt; represent the event that a rule table confirms a vulnerability&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Suppose the chance of violating a rule table given evidence is 1 in 1 million, but the chance of a rule table match given a non-vulnerable host is 1 in 10 million even when rule tables are taken into account.&lt;/p&gt;
-&lt;!-- &lt;a href=&quot;/riskyhacker.github.io/posts/hacking-reference/&quot;&gt;Hacking Reference&lt;/a&gt;
-&lt;a href=&quot;/riskyhacker.github.io/posts/extreme-risk/&quot;&gt;This Post&lt;/a&gt; --&gt;
+&lt;!-- &lt;a href=&quot;/posts/hacking-reference/&quot;&gt;Hacking Reference&lt;/a&gt;
+&lt;a href=&quot;/posts/extreme-risk/&quot;&gt;This Post&lt;/a&gt; --&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>Hacking Reference</title>
-		<link href="https://riskyhacker.github.io/riskyhacker.github.io/posts/hacking-reference/"/>
+		<link href="https://riskyhacker.github.io/posts/hacking-reference/"/>
 		<updated>2020-11-11T00:00:00+00:00</updated>
-		<id>https://riskyhacker.github.io/riskyhacker.github.io/posts/hacking-reference/</id>
+		<id>https://riskyhacker.github.io/posts/hacking-reference/</id>
 		<content type="html">&lt;blockquote&gt;
 &lt;p&gt;Useful links to keep bookmarked while hacking.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -458,9 +458,9 @@
 	
 	<entry>
 		<title>Century</title>
-		<link href="https://riskyhacker.github.io/riskyhacker.github.io/posts/century/"/>
+		<link href="https://riskyhacker.github.io/posts/century/"/>
 		<updated>2020-08-31T00:00:00+00:00</updated>
-		<id>https://riskyhacker.github.io/riskyhacker.github.io/posts/century/</id>
+		<id>https://riskyhacker.github.io/posts/century/</id>
 		<content type="html">&lt;blockquote&gt;
 &lt;p&gt;An Under The Wire wargame.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -499,9 +499,9 @@
 	
 	<entry>
 		<title>Bandit</title>
-		<link href="https://riskyhacker.github.io/riskyhacker.github.io/posts/bandit/"/>
+		<link href="https://riskyhacker.github.io/posts/bandit/"/>
 		<updated>2020-08-29T00:00:00+00:00</updated>
-		<id>https://riskyhacker.github.io/riskyhacker.github.io/posts/bandit/</id>
+		<id>https://riskyhacker.github.io/posts/bandit/</id>
 		<content type="html">&lt;blockquote&gt;
 &lt;p&gt;An Over The Wire wargame.&lt;/p&gt;
 &lt;/blockquote&gt;
