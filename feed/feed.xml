@@ -5,29 +5,12 @@
 	
 	<link href="https://riskyhacker.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://riskyhacker.github.io/"/>
-	<updated>2020-12-05T00:00:00+00:00</updated>
+	<updated>2020-11-11T00:00:00+00:00</updated>
 	<id>https://riskyhacker.github.io/</id>
 	<author>
 		<name>Your Name Here</name>
 		<email>youremailaddress@example.com</email>
 	</author>
-	
-	<entry>
-		<title>Hacker Battle Drills</title>
-		<link href="https://riskyhacker.github.io/posts/hacker-battle-drills/"/>
-		<updated>2020-12-05T00:00:00+00:00</updated>
-		<id>https://riskyhacker.github.io/posts/hacker-battle-drills/</id>
-		<content type="html">&lt;blockquote&gt;
-&lt;p&gt;A rolling list of moves every hacker should know.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&quot;resolve-a-hostname&quot;&gt;Resolve a hostname &lt;a class=&quot;direct-link&quot; href=&quot;#resolve-a-hostname&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token function&quot;&gt;dig&lt;/span&gt; +short &lt;span class=&quot;token variable&quot;&gt;$TARGET&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;verify-a-host-is-up&quot;&gt;Verify a host is up &lt;a class=&quot;direct-link&quot; href=&quot;#verify-a-host-is-up&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$TARGET&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;probe-a-service&quot;&gt;Probe a service &lt;a class=&quot;direct-link&quot; href=&quot;#probe-a-service&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;&#39;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nc&lt;/span&gt; -vv &lt;span class=&quot;token variable&quot;&gt;$TARGET&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$PORT&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-</content>
-	</entry>
 	
 	<entry>
 		<title>Hacking Reference</title>
