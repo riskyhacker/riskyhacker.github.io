@@ -9,12 +9,6 @@
     "url": "https://riskyhacker.github.io//about-me/"
   },
   "items": [{
-      "id": "https://riskyhacker.github.io/posts/hacker-battle-drills/",
-      "url": "https://riskyhacker.github.io/posts/hacker-battle-drills/",
-      "title": "Hacker Battle Drills",
-      "content_html": "<blockquote>\n<p>A rolling list of moves every hacker should know.</p>\n</blockquote>\n<h3 id=\"resolve-a-hostname\">Resolve a hostname <a class=\"direct-link\" href=\"#resolve-a-hostname\">#</a></h3>\n<pre class=\"language-shell\"><code class=\"language-shell\"><span class=\"highlight-line\"><span class=\"token function\">dig</span> +short <span class=\"token variable\">$TARGET</span></span></code></pre>\n<h3 id=\"verify-a-host-is-up\">Verify a host is up <a class=\"direct-link\" href=\"#verify-a-host-is-up\">#</a></h3>\n<pre class=\"language-shell\"><code class=\"language-shell\"><span class=\"highlight-line\"><span class=\"token function\">ping</span> <span class=\"token variable\">$TARGET</span></span></code></pre>\n<h3 id=\"probe-a-service\">Probe a service <a class=\"direct-link\" href=\"#probe-a-service\">#</a></h3>\n<pre class=\"language-shell\"><code class=\"language-shell\"><span class=\"highlight-line\"><span class=\"token builtin class-name\">echo</span> <span class=\"token string\">''</span> <span class=\"token operator\">|</span> <span class=\"token function\">nc</span> -vv <span class=\"token variable\">$TARGET</span> <span class=\"token variable\">$PORT</span></span></code></pre>\n",
-      "date_published": "2020-12-05T00:00:00+00:00"
-    },{
       "id": "https://riskyhacker.github.io/posts/hacking-reference/",
       "url": "https://riskyhacker.github.io/posts/hacking-reference/",
       "title": "Hacking Reference",
