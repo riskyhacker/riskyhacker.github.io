@@ -11,13 +11,13 @@ layout: layouts/post.njk
 > An Under The Wire wargame.
 
 ### Getting into UTW 
-``` shell/1/
+``` text/1/
 # SSH into UTW on port `22` (password: century1)
 ssh century1@century.underthewire.tech
 ```
 
 ### Level 1
-``` shell/1/5
+``` text/1/5
 # Objective: Identify build version of PowerShell 
 PS C:\users\century1\desktop> $PSVersionTable
 
@@ -36,7 +36,7 @@ PS C:\users\century1\desktop>
 ```
 
 ### Level 2
-``` shell/12/16
+``` text/12/16
 # Objective: List file names (Google Invoke-WebRequest: PS version of wget)
 PS C:\users\century2\desktop> Get-ChildItem
 
@@ -60,7 +60,7 @@ PS C:\users\century2\desktop> # invoke-webrequest443
 ```
 
 ### Level 3
-``` shell/20,26/24,30
+``` text/20,26/24,30
 # Objective: Count the number of files in a directory
 PS C:\users\century3\desktop> Get-ChildItem
 
@@ -98,7 +98,7 @@ PS C:\users\century3\desktop>
 ```
 
 ### Level 4
-``` shell/21/29
+``` text/21/29
 # Objective: Read directory with whitespace in file name
 PS C:\users\century4\desktop> get-childitem
 
@@ -135,7 +135,7 @@ PS C:\users\century4\desktop>
 ```
 
 ### Level 5
-``` shell/1,39/21,40
+``` text/1,39/21,40
 # Objective: Determine short name of the domain
 PS C:\users\century5\desktop> Get-ADDomain
 
@@ -193,7 +193,7 @@ PS C:\users\century5\desktop>
 ```
 
 ### Level 6
-``` shell/1/5
+``` text/1/5
 # Objective: Count the number of subdirectories in a directory  
 PS C:\users\century6\desktop> Get-ChildItem -Directory | Measure-Object -line
 
@@ -206,7 +206,7 @@ PS C:\users\century6\desktop>
 ```
 
 ### Level 7
-``` shell/2/10
+``` text/2/10
 # Objective: Locate a given file name (readme) amongst various folders
 # Key insight: Search in contacts, desktop, documents, downloads, favorites, music or videos 
 PS C:\users\century7\desktop> Get-ChildItem -Path ..\Desktop,..\Downloads,..\Favorites,..\Music,..\Videos -Filter '*readme*'
@@ -226,7 +226,7 @@ PS C:\users\century7\desktop>
 ```
 
 ### Level 8
-``` shell/12/16
+``` text/12/16
 # Objective: Count the number of unique entries in a file
 PS C:\users\century8\desktop> Get-ChildItem
 
@@ -251,7 +251,7 @@ PS C:\users\century8\desktop>
 ```
 
 ### Level 9
-``` shell/2/3
+``` text/2/3
 # Objective: Locate the 161th word in a file
 # Key insight: off-by-one error
 PS C:\users\century9\desktop> (Get-Content .\Word_File.txt)[161]
@@ -260,7 +260,7 @@ PS C:\users\century9\desktop>
 ```
 
 ### Level 10
-``` shell/12,21,42,95/18,24,36,66,70-72,99
+``` text/12,21,42,95/18,24,36,66,70-72,99
 # Objective: Locate the Windows Update service version description
 PS C:\users\century10\desktop> Get-ChildItem
 
@@ -370,7 +370,7 @@ PS C:\users\century10\desktop>
 ```
 
 ### Level 11
-``` shell/1/20
+``` text/1/20
 # Objective: Search for hidden files
 PS C:\users\century11\desktop> Get-ChildItem -Force -Exclude 'desktop.ini' -Path ..\Desktop,..\Documents,..\Downloads,..\Favorites,..\Music,..\Videos
 
@@ -398,7 +398,7 @@ PS C:\users\century11\desktop>
 ```
 
 ### Level 12
-``` shell/12,19,34/16,25,41
+``` text/12,19,34/16,25,41
 # Objective: Determine the name of the Domain Controller
 PS C:\users\century12\desktop> Get-ChildItem
 
@@ -453,7 +453,7 @@ PS C:\users\century12\desktop>
 
 
 ### Level 13
-``` shell/1/5
+``` text/1/5
 # Objective: Count the number of words in a file
 PS C:\users\century13\desktop> (Get-Content .\countmywords).Split(" ") | Measure-Object | select count
 
