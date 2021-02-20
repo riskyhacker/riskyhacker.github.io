@@ -11,13 +11,13 @@ layout: layouts/post.njk
 > An Over The Wire wargame.
 
 ### Getting into OTW
-``` shell/1/
+``` text/1/
 # SSH into OTW on port `2220`
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
 
 ### Level 0
-``` shell/3/
+``` text/3/
 # Objective: print file to standard out 
 bandit0@bandit:~$ ls
 readme
@@ -27,7 +27,7 @@ bandit0@bandit:~$
 ```
 
 ### Level 1
-``` shell/3/
+``` text/3/
 # Objective: print reserved-name file to standard out
 bandit1@bandit:~$ ls
 -
@@ -37,7 +37,7 @@ bandit1@bandit:~$
 ```
 
 ### Level 2
-``` shell/3/
+``` text/3/
 # Objective: print filename with spaces to standard out 
 bandit2@bandit:~$ ls
 spaces in this filename
@@ -46,7 +46,7 @@ UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 ```
 
 ### Level 3
-``` shell/6/
+``` text/6/
 # Objective: list hidden files
 bandit3@bandit:~$ ls
 inhere
@@ -59,7 +59,7 @@ bandit3@bandit:~$
 ```
 
 ### Level 4
-``` shell/5/
+``` text/5/
 # Objective: Find only human-readable files
 bandit4@bandit:~$ ls
 inhere
@@ -71,7 +71,7 @@ bandit4@bandit:~$
 ```
 
 ### Level 5
-``` shell/6,20/
+``` text/6,20/
 # Objective: Find the only human-readable files 1033 bytes in size and not executable
 bandit5@bandit:~$ ls
 inhere
@@ -97,7 +97,7 @@ DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 ```
 
 ### Level 6
-``` shell/23-24/
+``` text/23-24/
 # Objective: Find the only file owned by user bandit7 owned by group bandit6 that is 33 bytes in size
 # Key insight: ignore files you do not have permission to access
 bandit6@bandit:~$ ls
@@ -129,7 +129,7 @@ bandit6@bandit:~$
 ```
 
 ### Level 7
-``` shell/9/
+``` text/9/
 # Objective: parse a file for desired keyword
 bandit7@bandit:~$ ls
 data.txt
@@ -145,7 +145,7 @@ bandit7@bandit:~$
 ```
 
 ### Level 8
-``` shell/7/
+``` text/7/
 # Objective: parse a file for unique occurences
 bandit8@bandit:~$ ls
 data.txt
@@ -159,7 +159,7 @@ bandit8@bandit:~$
 ```
 
 ### Level 9
-``` shell/10,17/
+``` text/10,17/
 # Objective: parse a file for human readable strings
 bandit9@bandit:~$ ls
 data.txt
@@ -183,7 +183,7 @@ bandit9@bandit:~$
 ```
 
 ### Level 10
-``` shell/10/
+``` text/10/
 # Objective: decode base64 data
 bandit10@bandit:~$ ls
 data.txt
@@ -202,7 +202,7 @@ bandit10@bandit:~$
 ### Level 11
 
 
-``` shell/7/
+``` text/7/
 # Objective: rotate plaintext 
 bandit11@bandit:~$ ls
 data.txt
@@ -216,7 +216,7 @@ bandit11@bandit:~$
 ```
 
 ### Level 12
-``` shell/34/
+``` text/34/
 # Objective: decode repeatedly compressed hexdump
 bandit12@bandit:~$ ls
 data.txt
@@ -257,7 +257,7 @@ bandit12@bandit:~$
 ```
 
 ### Level 13
-``` shell/3/
+``` text/3/
 # Objective: use a private ssh key to read a file
 bandit13@bandit:~$ ls
 sshkey.private
@@ -268,7 +268,7 @@ bandit14@bandit:~$
 ```
 
 ### Level 14-15
-``` shell/1,6/
+``` text/1,6/
 # Objective: transmit data through a port on localhost
 bandit14@bandit:~$ nc localhost 30000 <<< '4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e'
 Correct!
@@ -345,7 +345,7 @@ bandit15@bandit:~$
 ```
 ### Level 16
 
-``` shell/1,21-25,29,59-63,65,166-194,197/136-162,196
+``` text/1,21-25,29,59-63,65,166-194,197/136-162,196
 # Objective: Discover open ports and protocol versions, send encrypted message to open port
 bandit16@bandit:~$ nmap -vvv -T5 -p 31000-32000 localhost
 
@@ -549,7 +549,7 @@ xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
 ```
 ### Level 17
 
-``` shell/14/
+``` text/14/
 # Objective: Determine differences between files
 bandit17@bandit:~$ ls
 passwords.new  passwords.old
@@ -573,7 +573,7 @@ bandit17@bandit:~$ diff passwords.new passwords.old
 ```
 ### Level 18
 
-``` shell/6/
+``` text/6/
 # Objective: Bypass ssh logout from .bashrc configuration
 bandit17@bandit:~$ ssh bandit18@localhost
 Enjoy your stay!
@@ -592,7 +592,7 @@ IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
 
 ### Level 19
 
-``` shell/11/
+``` text/11/
 # Objective: use setUID bit binary
 bandit19@bandit:~$ ls
 bandit20-do
@@ -610,7 +610,7 @@ GbKksEFF4yrVs6il55v6gwY5aVje5f0j
 
 
 ### Level 20
-``` shell/9,13/
+``` text/9,13/
 # Objective: Create a socket listener as a background job 
 bandit20@bandit:~$ ls
 suconnect
@@ -635,7 +635,7 @@ bandit20@bandit:~$
 
 ### Level 21
 
-``` shell/3,6/
+``` text/3,6/
 # Objective: Inspect scheduled jobs/tasks
 bandit21@bandit:~$ ls /etc/cron.d/
 cronjob_bandit15_root  cronjob_bandit17_root  cronjob_bandit22  cronjob_bandit23  cronjob_bandit24  cronjob_bandit25_root
@@ -650,7 +650,7 @@ cat /etc/bandit_pass/bandit22 > /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
 
 ### Level 22
 
-``` shell/3,6,16,22/18-19
+``` text/3,6,16,22/18-19
 # Objective: Inspect scheduled jobs/tasks
 bandit22@bandit:~$ ls /etc/cron.d/
 cronjob_bandit15_root  cronjob_bandit17_root  cronjob_bandit22  cronjob_bandit23  cronjob_bandit24  cronjob_bandit25_root
@@ -678,7 +678,7 @@ jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
 ```
 
 #### Level 23
-``` shell/5,8,29-30,36-37/38
+``` text/5,8,29-30,36-37/38
 # Objective: Inspect and manipulate scheduled jobs/tasks
 # Key insight: permissions on interpretted scripts
 bandit23@bandit:~$ ls /etc/cron.d/
@@ -723,7 +723,7 @@ UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
 ```
 
 #### Level 24
-``` shell/2-5,18/
+``` text/2-5,18/
 # Objective: Brute force a service 
 # Key insight: Generate a wordlist 
 bandit24@bandit:~$ PASS=UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
@@ -755,7 +755,7 @@ bandit24@bandit:~$
 ``` 
 
 ### Level 25-26
-``` shell/18-21,40 
+``` text/18-21,40 
 # Objective: escape default login shell 
 # Key insight: /etc/passwd; more has access to vi; vi has access to shell
 bandit25@bandit:~$ ls
@@ -802,7 +802,7 @@ bandit26@bandit:~$ ./bandit27-do cat /etc/bandit_pass/bandit27
 
 
 #### Level 27
-``` shell/1,18/
+``` text/1,18/
 # Objective: clone a repository
 bandit27@bandit:~$ git clone ssh://bandit27-git@localhost/home/bandit27-git/repo /tmp/a130mb
 Cloning into '/tmp/a130mb'...
@@ -827,7 +827,7 @@ bandit27@bandit:/tmp/a130mb$
 ```
 
 #### Level 28
-``` shell/20,33,46,55,58/30
+``` text/20,33,46,55,58/30
 # Objective: Find private information in a repository 
 # Key insight: check the commit logs; checkout historic branch
 bandit28@bandit:~$ git clone ssh://bandit28-git@localhost/home/bandit28-git/repo /tmp/a130mb
@@ -900,7 +900,7 @@ bandit28@bandit:/tmp/a130mb$
 ```
 
 #### Level 29
-``` shell/36,41/
+``` text/36,41/
 # Objective: Find private information in repository branches
 bandit29@bandit:~$ git clone ssh://bandit29-git@localhost/home/bandit29-git/repo /tmp/a130mb
 Cloning into '/tmp/a130mb'...
@@ -956,7 +956,7 @@ bandit29@bandit:/tmp/a130mb$
 ```
 
 #### Level 30
-``` shell/20,29,46,50/
+``` text/20,29,46,50/
 # Objective: Find private information in a repository using tag branches 
 bandit30@bandit:~$ git clone ssh://bandit30-git@localhost/home/bandit30-git/repo
 fatal: could not create work tree dir 'repo': Permission denied
@@ -1013,7 +1013,7 @@ bandit30@bandit:/tmp/a130mb/.git$
 ```
 
 #### Level 31
-``` shell/19,27-29,33/20-26
+``` text/19,27-29,33/20-26
  Objective: Find private information in repository by trigger git hooks
 bandit31@bandit:~$ git clone ssh://bandit31-git@localhost/home/bandit31-git/repo /tmp/a130mb
 Cloning into '/tmp/a130mb'...
@@ -1077,7 +1077,7 @@ error: failed to push some refs to 'ssh://bandit31-git@localhost/home/bandit31-g
 ```
 
 #### Level 32
-``` shell/5/
+``` text/5/
 # Objective: Spawn a new shell
 WELCOME TO THE UPPERCASE SHELL
 >>
