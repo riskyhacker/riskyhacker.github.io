@@ -11,7 +11,7 @@ layout: layouts/post.njk
 > A quick start guide.
 
 ### Documentation 
-Nmap has awesome website packed with great information. [Port scanning](https://nmap.org/book/port-scanning-options.html) is a good enough synopsis to get you started. Checkout [the free online book](https://nmap.org/book/toc.html) when you need an all exhaustive reference. The purchased edition has extra goodies in it. The man page is just as awesome as the website.
+Nmap has an awesome website packed with great information. [Port scanning](https://nmap.org/book/port-scanning-options.html) is a good enough synopsis to get you started. Checkout [the free online book](https://nmap.org/book/toc.html) when you need an all exhaustive reference. The purchased edition has extra goodies in it. The man page is just as awesome as the website.
 ``` text/0,8
 # Loaded with useful content (unlike some man pages)
 ➜  ~ man nmap
