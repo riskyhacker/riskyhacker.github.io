@@ -9,7 +9,7 @@ eleventyNavigation:
 
 > Who am I?
 
-I am a decent unix hacker who makes a living doing vulnerability analysis, penetration testing, and writing software to automoate both as much as possible.   
+I am a decent unix hacker who makes a living doing vulnerability analysis, penetration testing, and writing software to automate both as much as possible.   
 
 <style>
 hr {
